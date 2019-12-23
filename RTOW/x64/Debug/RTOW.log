@@ -1,0 +1,41 @@
+﻿  main.cc
+D:\Git\raytracinginoneweekendincuda\vec3.h(54,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Git\raytracinginoneweekendincuda\vec3.h(133,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Git\raytracinginoneweekendincuda\hitable_list.h(20,40): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Git\raytracinginoneweekendincuda\camera.h(11,32): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Git\raytracinginoneweekendincuda\camera.h(11,22): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Git\raytracinginoneweekendincuda\camera.h(20,25): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Git\raytracinginoneweekendincuda\material.h(22,24): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Git\raytracinginoneweekendincuda\material.h(40,42): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Git\raytracinginoneweekendincuda\material.h(40,32): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Git\raytracinginoneweekendincuda\material.h(40,22): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Git\raytracinginoneweekendincuda\material.h(97,36): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Git\raytracinginoneweekendincuda\main.cc(24,8): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Git\raytracinginoneweekendincuda\main.cc(36,17): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Git\raytracinginoneweekendincuda\main.cc(37,20): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Git\raytracinginoneweekendincuda\main.cc(37,66): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Git\raytracinginoneweekendincuda\main.cc(49,30): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Git\raytracinginoneweekendincuda\main.cc(50,46): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Git\raytracinginoneweekendincuda\main.cc(50,61): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Git\raytracinginoneweekendincuda\main.cc(50,26): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Git\raytracinginoneweekendincuda\main.cc(51,16): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Git\raytracinginoneweekendincuda\main.cc(53,128): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Git\raytracinginoneweekendincuda\main.cc(53,107): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Git\raytracinginoneweekendincuda\main.cc(53,86): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Git\raytracinginoneweekendincuda\main.cc(53,141): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Git\raytracinginoneweekendincuda\main.cc(57,89): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Git\raytracinginoneweekendincuda\main.cc(57,68): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Git\raytracinginoneweekendincuda\main.cc(57,47): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Git\raytracinginoneweekendincuda\main.cc(57,112): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Git\raytracinginoneweekendincuda\main.cc(57,124): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Git\raytracinginoneweekendincuda\main.cc(60,77): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Git\raytracinginoneweekendincuda\main.cc(67,82): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Git\raytracinginoneweekendincuda\main.cc(68,76): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Git\raytracinginoneweekendincuda\main.cc(85,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Git\raytracinginoneweekendincuda\main.cc(86,78): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Git\raytracinginoneweekendincuda\main.cc(87,83): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Git\raytracinginoneweekendincuda\main.cc(88,73): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Git\raytracinginoneweekendincuda\main.cc(90,68): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Git\raytracinginoneweekendincuda\main.cc(97,25): warning C4305: 'initializing': truncation from 'double' to 'float'
+     Creating library D:\Git\raytracinginoneweekendincuda\RTOW\x64\Debug\RTOW.lib and object D:\Git\raytracinginoneweekendincuda\RTOW\x64\Debug\RTOW.exp
+  RTOW.vcxproj -> D:\Git\raytracinginoneweekendincuda\RTOW\x64\Debug\RTOW.exe

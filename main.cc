@@ -5,6 +5,18 @@
 #include "camera.h"
 #include "material.h"
 
+#include <vector>
+#include <string>
+#include <iomanip>
+#include <iostream>
+#include <fstream>
+#include <sstream>
+using namespace std;
+
+#define drand48() ((double)rand()/RAND_MAX)
+#define M_PI 3.14159265358979323846
+
+
 #define MAXFLOAT FLT_MAX
 
 vec3 color(const ray& r, hitable *world, int depth) {
@@ -62,7 +74,13 @@ int main() {
     int nx = 1200;
     int ny = 800;
     int ns = 10;
-    std::cout << "P3\n" << nx << " " << ny << "\n255\n";
+
+	string filename = "test.ppm";
+	ofstream f;
+	f.open(filename.c_str(), ofstream::out);
+	f << "P3\n" << nx << " " << ny << "\n255\n";
+    //std::cout << "P3\n" << nx << " " << ny << "\n255\n";
+
     hitable *list[5];
     float R = cos(M_PI/4);
     list[0] = new sphere(vec3(0,0,-1), 0.5, new lambertian(vec3(0.1, 0.2, 0.5)));
@@ -80,7 +98,7 @@ int main() {
 
     camera cam(lookfrom, lookat, vec3(0,1,0), 20, float(nx)/float(ny), aperture, dist_to_focus);
 
-    for (int j = ny-1; j >= 0; j--) {
+	    for (int j = ny-1; j >= 0; j--) {
         for (int i = 0; i < nx; i++) {
             vec3 col(0, 0, 0);
             for (int s=0; s < ns; s++) {
@@ -95,7 +113,9 @@ int main() {
             int ir = int(255.99*col[0]);
             int ig = int(255.99*col[1]);
             int ib = int(255.99*col[2]);
-            std::cout << ir << " " << ig << " " << ib << "\n";
+            //std::cout << ir << " " << ig << " " << ib << "\n";
+			f << ir << " " << ig << " " << ib << "\n";
         }
     }
 }
+

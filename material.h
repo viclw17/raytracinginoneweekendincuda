@@ -6,6 +6,9 @@ struct hit_record;
 #include "ray.h"
 #include "hitable.h"
 
+#define drand48() ((double)rand()/RAND_MAX)
+#define M_PI 3.14159265358979323846
+
 
 float schlick(float cosine, float ref_idx) {
     float r0 = (1-ref_idx) / (1+ref_idx);

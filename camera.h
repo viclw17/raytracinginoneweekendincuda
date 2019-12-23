@@ -2,6 +2,9 @@
 #define CAMERAH
 #include "ray.h"
 
+#define drand48() ((double)rand()/RAND_MAX)
+#define M_PI 3.14159265358979323846
+
 vec3 random_in_unit_disk() {
     vec3 p;
     do {
